@@ -338,6 +338,26 @@
             </li>
           </ul>
         </div>
+        <div class="footer-subscribe-container">
+          <h3 class="footer-social-header">Подпишитесь на рассылку</h3>
+          <form action="#" class="footer-subscribe-form">
+            <label>
+              <input
+                type="email"
+                placeholder="E-mail"
+                required
+                pattern="\S+@[a-z]+.[a-z]+"
+                class="subscribe-input"
+              />
+            </label>
+            <button type="submit" class="subscribe-button">
+              <span> Подписаться </span>
+              <svg class="subscribe-icon-send">
+                <use href="./img/sprite.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
   </body>
